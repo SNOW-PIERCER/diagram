@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-05T13:30:21.521Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Whale/2.9.115.16 Safari/537.36" etag="_aiea3VaoExy2Ws-ZRXP" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-05T13:31:39.048Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Whale/2.9.115.16 Safari/537.36" etag="Cb5OdnXcFBMT3dzuroX_" version="14.5.7" type="github">
   <diagram id="P94FQoILM087UZ30ZA-V" name="Page-1">
     <mxGraphModel dx="945" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -238,7 +238,7 @@
         <mxCell id="13hCxG7cCII5tz9myrVL-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="13hCxG7cCII5tz9myrVL-89" target="13hCxG7cCII5tz9myrVL-91" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="13hCxG7cCII5tz9myrVL-89" value="벡터 servers에, tmp 정보를 담은 새로운 server를 추가" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="13hCxG7cCII5tz9myrVL-89" value="새로운 Server객체의 _conf에 tmp를 push하고,&lt;br&gt;이를 벡터 servers에 push" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="87.51" y="1910" width="145" height="60" as="geometry" />
         </mxCell>
         <mxCell id="13hCxG7cCII5tz9myrVL-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="13hCxG7cCII5tz9myrVL-91" target="13hCxG7cCII5tz9myrVL-7" edge="1">
