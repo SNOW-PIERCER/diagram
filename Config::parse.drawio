@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-05T13:16:52.481Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Whale/2.9.115.16 Safari/537.36" etag="iY4OL92jLd1nNh5ir_6O" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-05T13:20:22.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Whale/2.9.115.16 Safari/537.36" etag="HyKJhM06LTmAKDyurB3M" version="14.5.7" type="github">
   <diagram id="P94FQoILM087UZ30ZA-V" name="Page-1">
     <mxGraphModel dx="1099" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,7 +82,7 @@
         <mxCell id="13hCxG7cCII5tz9myrVL-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="13hCxG7cCII5tz9myrVL-40" target="13hCxG7cCII5tz9myrVL-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="13hCxG7cCII5tz9myrVL-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="13hCxG7cCII5tz9myrVL-40" edge="1" target="13hCxG7cCII5tz9myrVL-48">
+        <mxCell id="13hCxG7cCII5tz9myrVL-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="13hCxG7cCII5tz9myrVL-40" target="13hCxG7cCII5tz9myrVL-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="152.5" y="930" as="targetPoint" />
             <Array as="points">
@@ -306,11 +306,14 @@
         <mxCell id="13hCxG7cCII5tz9myrVL-117" value="&lt;ul&gt;&lt;li&gt;&lt;font face=&quot;AppleSDGothicNeoM00, applesdgothicneom00&quot;&gt;server{} 블록 하나 파싱 완료&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="5" y="2020" width="245" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="a2KQ85Uh5giSHMao5WSL-1" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="a2KQ85Uh5giSHMao5WSL-1" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="150" y="1560" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="a2KQ85Uh5giSHMao5WSL-2" value="&lt;ul&gt;&lt;li&gt;&lt;font face=&quot;AppleSDGothicNeoM00, applesdgothicneom00&quot;&gt;정확히 line이 &quot;server{&quot;와 공백으로만 이루어졌는지 확인하는 것으로 보임&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="a2KQ85Uh5giSHMao5WSL-2" value="&lt;ul&gt;&lt;li&gt;&lt;font face=&quot;AppleSDGothicNeoM00, applesdgothicneom00&quot;&gt;정확히 line이 &quot;server{&quot;와 공백으로만 이루어졌는지 확인하는 것으로 보임&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="270" y="1440" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NsCcuSabks8nJYObxPIR-1" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="710" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
