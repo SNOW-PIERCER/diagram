@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-07T08:21:32.909Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="jGhQ7OG65ZuyI61NJFcP" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-07T09:36:52.361Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="Lh_-p9tXYxrzRvPQq8L-" version="14.5.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1425" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -177,7 +177,7 @@
           <mxGeometry x="520" y="1780.03" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DyBJ3JbBBXoqkzAA94bN-85" value="readSet = rSet&lt;br&gt;writeSet = wSet&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="670" y="430.03" width="140" height="70" as="geometry" />
+          <mxGeometry x="660" y="420.03" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DyBJ3JbBBXoqkzAA94bN-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DyBJ3JbBBXoqkzAA94bN-88" target="DyBJ3JbBBXoqkzAA94bN-93" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -273,6 +273,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DyBJ3JbBBXoqkzAA94bN-137" value="true" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="DyBJ3JbBBXoqkzAA94bN-136" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uXqvnL0BM_y1bs4T_ixk-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DyBJ3JbBBXoqkzAA94bN-138" target="uXqvnL0BM_y1bs4T_ixk-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uXqvnL0BM_y1bs4T_ixk-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DyBJ3JbBBXoqkzAA94bN-138" target="uXqvnL0BM_y1bs4T_ixk-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DyBJ3JbBBXoqkzAA94bN-138" value="s-&amp;gt;send503(s-&amp;gt;_tmp_clients.front())" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -500,7 +506,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uXqvnL0BM_y1bs4T_ixk-18" value="close(fd)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1550" y="930.0299999999997" width="120" height="60" as="geometry" />
+          <mxGeometry x="1540" y="1020.0299999999997" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uXqvnL0BM_y1bs4T_ixk-19" value="s-&amp;gt;_tmp_clients.push(fd)&lt;br&gt;_wget &amp;lt;- fd" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1305" y="1150" width="230" height="52" as="geometry" />
@@ -543,6 +549,12 @@
         </mxCell>
         <mxCell id="uXqvnL0BM_y1bs4T_ixk-44" value="s-&amp;gt;_maxFd = fd" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1030" y="940.04" width="100" height="79.99" as="geometry" />
+        </mxCell>
+        <mxCell id="uXqvnL0BM_y1bs4T_ixk-47" value="response&lt;br&gt;&lt;br&gt;version = &quot;HTTP/1.1&quot;&lt;br&gt;status_code = UNAVAILABLE&lt;br&gt;headers[&quot;Retry-After&quot;] = RETRY&lt;br&gt;headers[&quot;Date&quot;] = ft::getDate()&lt;br&gt;headers[&quot;Server&quot;] = &quot;webserv&quot;&lt;br&gt;body =&amp;nbsp;UNAVAILABLE&lt;br&gt;headers[&quot;Content-Length&quot;] = response.body.size()&lt;br&gt;&lt;br&gt;str = &quot;HTTP/1.1 503\r\nRetry-After: 25\r\nDate: getDate\r\nServer: webserv\r\nContent-Length: 23\r\n\r\n503 Service Unavailable&quot;&lt;br&gt;&lt;br&gt;fd &amp;lt;- str" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1510" y="710.04" width="280" height="239.97" as="geometry" />
+        </mxCell>
+        <mxCell id="uXqvnL0BM_y1bs4T_ixk-49" value="s-&amp;gt;_tmp_clients.pop()" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1760" y="615.01" width="120" height="50.03" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
