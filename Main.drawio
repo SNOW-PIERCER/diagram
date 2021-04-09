@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-09T03:32:56.174Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="9oD9-rt1W2BgKX9o6InU" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-09T03:35:50.472Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="L5BqoylunsOqecifIHKf" version="14.5.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="816" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -520,19 +520,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uXqvnL0BM_y1bs4T_ixk-21" value="s-&amp;gt;acceptConnection" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1180" y="670.03" width="120" height="60" as="geometry" />
+          <mxGeometry x="1180" y="650.03" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uXqvnL0BM_y1bs4T_ixk-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uXqvnL0BM_y1bs4T_ixk-23" target="uXqvnL0BM_y1bs4T_ixk-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uXqvnL0BM_y1bs4T_ixk-23" value="fd = accept" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1180" y="810.03" width="120" height="60" as="geometry" />
+          <mxGeometry x="1180" y="790.03" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uXqvnL0BM_y1bs4T_ixk-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uXqvnL0BM_y1bs4T_ixk-25" target="uXqvnL0BM_y1bs4T_ixk-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uXqvnL0BM_y1bs4T_ixk-25" value="if (fd &amp;lt; _maxFd)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1180" y="940.03" width="120" height="80" as="geometry" />
+          <mxGeometry x="1180" y="920.03" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uXqvnL0BM_y1bs4T_ixk-27" value="" style="endArrow=classic;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uXqvnL0BM_y1bs4T_ixk-25" target="uXqvnL0BM_y1bs4T_ixk-44" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -547,13 +547,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uXqvnL0BM_y1bs4T_ixk-37" value="s._clients &amp;nbsp;=&amp;nbsp;&lt;br&gt;Client(fd, _rSet, _wSet, info)" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1180" y="1110.03" width="120" height="60" as="geometry" />
+          <mxGeometry x="1180" y="1048" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uXqvnL0BM_y1bs4T_ixk-39" value="s-&amp;gt;_clients.client&lt;br&gt;&lt;br&gt;this-&amp;gt;fd = fd&lt;br&gt;this-&amp;gt;read_fd = -1&lt;br&gt;this-&amp;gt;write_fd = -1&lt;br&gt;this-&amp;gt;status = STANDBY&lt;br&gt;this-&amp;gt;cgi_pid = -1&lt;br&gt;this-&amp;gt;tmp_pd = -1&lt;br&gt;this-&amp;gt;rSet = s._rSet&lt;br&gt;this-&amp;gt;wSet = s._wSet" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1160" y="1255.04" width="160" height="154.96" as="geometry" />
+          <mxGeometry x="1160" y="1240" width="160" height="154.96" as="geometry" />
         </mxCell>
         <mxCell id="uXqvnL0BM_y1bs4T_ixk-44" value="s-&amp;gt;_maxFd = fd" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1030" y="940.04" width="100" height="79.99" as="geometry" />
+          <mxGeometry x="1030" y="920.04" width="100" height="79.99" as="geometry" />
         </mxCell>
         <mxCell id="uXqvnL0BM_y1bs4T_ixk-47" value="response&lt;br&gt;&lt;br&gt;version = &quot;HTTP/1.1&quot;&lt;br&gt;status_code = UNAVAILABLE&lt;br&gt;headers[&quot;Retry-After&quot;] = RETRY&lt;br&gt;headers[&quot;Date&quot;] = ft::getDate()&lt;br&gt;headers[&quot;Server&quot;] = &quot;webserv&quot;&lt;br&gt;body =&amp;nbsp;UNAVAILABLE&lt;br&gt;headers[&quot;Content-Length&quot;] = response.body.size()&lt;br&gt;&lt;br&gt;str = &quot;HTTP/1.1 503\r\nRetry-After: 25\r\nDate: getDate\r\nServer: webserv\r\nContent-Length: 23\r\n\r\n503 Service Unavailable&quot;&lt;br&gt;&lt;br&gt;fd &amp;lt;- str" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1510" y="710.04" width="280" height="239.97" as="geometry" />
@@ -572,8 +572,26 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="vR1FnyebbCSJFKb4ocQQ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vR1FnyebbCSJFKb4ocQQ-2" target="vR1FnyebbCSJFKb4ocQQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vR1FnyebbCSJFKb4ocQQ-2" value="readRequest" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="100.00000000000011" y="1920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vR1FnyebbCSJFKb4ocQQ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vR1FnyebbCSJFKb4ocQQ-3" target="vR1FnyebbCSJFKb4ocQQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vR1FnyebbCSJFKb4ocQQ-3" value="ret = read(client-&amp;gt;fd, client-&amp;gt;rBuf + bytes, BUFFER_SIZE - bytes)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="1920" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vR1FnyebbCSJFKb4ocQQ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vR1FnyebbCSJFKb4ocQQ-5" target="vR1FnyebbCSJFKb4ocQQ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vR1FnyebbCSJFKb4ocQQ-5" value="ret &amp;gt; 0" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="665" y="1910" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vR1FnyebbCSJFKb4ocQQ-7" value="strstr(client-&amp;gt;rBuf, &quot;\r\n\r\n&quot;) != NULL)&lt;br&gt;&amp;amp;&amp;amp; (client-&amp;gt;status != BODYPARSING)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="665" y="2070" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
